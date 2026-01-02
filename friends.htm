@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./style/all.min.css">
+    <!-- Boot Strap Css -->
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <!-- Framework Css -->
+    <link rel="stylesheet" href="./style/framework.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Friends</title>
+</head>
+
+<body>
+    <div class="page d-flex min-vh-100 position-relative">
+        <!-- Sidbar Start -->
+        <div class="sidbar bg-white p-20 position-relative shadow ">
+            <h3>Karim</h3>
+            <ul>
+                <li>
+                    <a class="text-dark p-10 d-flex align-items-center  " href="index.htm">
+                        <i class="fa-regular fa-chart-bar fa-fw "></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class=" text-dark p-10 d-flex align-items-center " href="setting.htm">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="text-dark p-10 d-flex align-items-center " href="profile.htm">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="text-dark p-10 d-flex align-items-center " href="projects.htm">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="text-dark p-10 d-flex align-items-center " href="courses.htm">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active text-dark p-10 d-flex align-items-center " href="friends.htm">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="text-dark p-10 d-flex align-items-center " href="files.htm">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="text-dark p-10 d-flex align-items-center " href="palns.htm">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- Sidbar End -->
+        <!-- Content Start -->
+        <div class="content w-100">
+            <!-- Head start -->
+            <div class="head bg-white d-flex justify-content-between align-items-center p-3 shadow-sm">
+                <div class="search position-relative">
+                    <input type="search" placeholder="Type A Keywords">
+                </div>
+                <div class="icons d-flex position-relative align-items-center">
+                    <i class="fa-regular fa-bell"></i>
+                    <img src="./image/avatar.png" alt="photo">
+                </div>
+            </div>
+            <!-- Head end -->
+            <div class="container-fluid px-4">
+                <h1>Friends</h1>
+            </div>
+            <!-- Friends start  -->
+            <section class="friends">
+                <div class="container-fluid px-4">
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-01.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Ahmed Nasser</h5>
+                            <p class="text-black-50" style="font-size: 13px;">javaScript Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>99 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>15 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>25 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-02.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Omar Fathy</h5>
+                            <p class="text-black-50" style="font-size: 13px;">Cloud Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>30 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>11 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>12 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-03.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Karim Mahmoud</h5>
+                            <p class="text-black-50" style="font-size: 13px;">Mobile Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>80 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>20 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-04.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Shady Nabil</h5>
+                            <p class="text-black-50" style="font-size: 13px;">Back-End Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>70 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>30 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-05.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Amr Hendawy</h5>
+                            <p class="text-black-50" style="font-size: 13px;">Back-End Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>99 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>15 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>25 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-03.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Karim Mahmoud</h5>
+                            <p class="text-black-50" style="font-size: 13px;">Mobile Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>80 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>20 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-05.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Amr Hendawy</h5>
+                            <p class="text-black-50" style="font-size: 13px;">Back-End Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>99 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>15 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>25 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-04.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Shady Nabil</h5>
+                            <p class="text-black-50" style="font-size: 13px;">Back-End Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>70 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>30 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>18 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-01.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Ahmed Nasser</h5>
+                            <p class="text-black-50" style="font-size: 13px;">javaScript Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>99 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>15 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>25 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-friends bg-white p-20 border-radius  position-relative ">
+                        <div class="card-friends text-center" style="border-bottom: 1px solid #EEE;">
+                            <div class="image w-100"><img
+                                    style="width: 100px; height: 100px;border-radius:50% ; margin:10px auto; "
+                                    src="./image/friend-02.jpg" alt=""></div>
+                            <h5 class="fw-bold" style="font-size: 16px ; color: black;">Omar Fathy</h5>
+                            <p class="text-black-50" style="font-size: 13px;">Cloud Developer</p>
+                            <div class="icons position-absolute d-flex" style="top: 10px; left: 10px;">
+                                <i class="fa-solid fa-phone d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                                <i class="fa-regular fa-envelope ms-2 d-flex align-items-center justify-content-center"
+                                    style="width: 30px; height: 30px; border-radius: 50%;font-size: 14px; background-color: #eee;"></i>
+                            </div>
+                        </div>
+                        <div class=" info pt-3 pb-2">
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-face-smile fa-fw me-1" style="color: black;"></i>
+                                <span>30 Friends</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-solid fa-code-commit fa-fw me-1" style="color: black;"></i>
+                                <span>11 project</span>
+                            </div>
+                            <div class="text-black mb-2" style="font-size: 14px;">
+                                <i class="fa-regular fa-newspaper fa-fw me-1" style="color: black;"></i>
+                                <span>12 Articles</span>
+                            </div>
+                        </div>
+                        <div class="button-friends d-flex justify-content-between align-items-center pt-3"
+                            style="border-top:1px solid #EEE ;">
+                            <span style="font-size: 13px;" class="text-black-50">Joined 02/10/2025</span>
+                            <div>
+                                <a href="#" class="btn btn-primary"
+                                    style="font-size: 13px; padding: 2px 6px;">profile</a>
+                                <a href="#" class="btn btn-danger" style="font-size: 13px; padding: 2px 6px;">Remove</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Friends end -->
+        </div>
+        <!-- js bootstrap -->
+        <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

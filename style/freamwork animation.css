@@ -1,0 +1,141 @@
+.autoRotate {
+    animation: AutoRotateAnimation;
+    animation-timeline: view();
+}
+
+@keyframes AutoRotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.autoShow {
+    animation: text-appear both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes text-appear {
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.imageReveal {
+    animation: imageReveal both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 100vh;
+}
+
+@keyframes imageReveal {
+    from {
+        filter: saturate(0) contrast(5) brightness(.2) blur(3px);
+        opacity: 0;
+        scale: .95;
+        translate: 0 4rem;
+    }
+
+    to {
+        filter: none;
+        opacity: 1;
+        scale: 1;
+        translate: 0 0;
+    }
+}
+
+.fedUp {
+    animation: fedUp both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 40%;
+
+}
+
+@keyframes fedUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+
+.fedUp-2 {
+    animation: fedUp-2 both;
+    animation-timeline: view();
+    animation-range: entry 20% cover 40%;
+}
+
+.timeline-item:nth-child(1) {
+    animation-range: entry 20% cover 40%;
+}
+
+.timeline-item:nth-child(2) {
+    animation-range: entry 40% cover 60%;
+}
+
+.timeline-item:nth-child(3) {
+    animation-range: entry 60% cover 80%;
+}
+
+@keyframes fedUp-2 {
+    from {
+        opacity: 0;
+        transform: translateY(10px) scale(0.5);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.autoBlur {
+    animation: autoBlurAnimation linear both;
+    animation-timeline: view(60% auto);
+}
+
+@keyframes autoBlurAnimation {
+    from {
+        filter: blur(20px);
+    }
+    to {
+        filter: blur(0px);
+    }
+}
+
+.autoBlur-2 {
+    animation: autoBlurAnimation-2 linear both;
+    animation-timeline: view(50% auto);
+}
+
+@keyframes autoBlurAnimation-2 {
+    0% {
+        filter: blur(20px);
+    }
+
+    35%, 45% {
+        filter: blur(0rem);
+    }
+
+    70% {
+        filter: blur(20px);
+    }
+
+    100% {
+        filter: blur(0px);
+    }
+}
